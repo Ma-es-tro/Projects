@@ -1,0 +1,17 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
+
+.image-container {
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+.Info{
+    display: none;
+}
