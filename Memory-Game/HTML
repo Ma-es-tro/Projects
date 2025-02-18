@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="Design.css">
+   
+</head>
+
+<body>
+    <div class="game-board">
+        
+    </div>
+    <div class="Container">
+
+        <img src="Images/Correct.png" alt="You are Correct" id="Correct">
+        
+        <img src="Images/Wrong.png" alt="You are Wrong" id="Wrong">
+        
+
+    </div>
+
+    <div id="Fact">
+        <p></p>
+    </div>
+
+    <audio id="CorAud">
+        <source src="Audio/CorAud.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="WroAud">
+        <source src="Audio/WroAud.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
+
+
+<script src="Script.js"></script>
